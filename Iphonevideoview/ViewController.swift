@@ -1,25 +1,43 @@
 //
 //  ViewController.swift
-//  Iphonevideoview
+//  airplaytest
 //
-//  Created by Abigail Grant (i7643664) on 17/05/2016.
-//  Copyright © 2016 Abigail Grant (i7643664). All rights reserved.
+//  Created by apple on 29/04/2016.
+//  Copyright (c) 2016 katie mcgowan. All rights reserved.
 //
 
 import UIKit
+import MediaPlayer
+import YouTubePlayer
+
+
 
 class ViewController: UIViewController {
+    
+    let videos = buildVideos()
+    var selectedVideo = 0
+    
+    @IBAction func videoButton(sender: AnyObject) {
+        selectedVideo = sender.tag!
+        performSegueWithIdentifier("VideoDetail", sender: videos[sender.tag!])
+    }
 
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "VideoDetail" {
+            let vc = segue.destinationViewController as! VideoView
+            vc.video = videos[selectedVideo]
+        }
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
+    
 }
+
 

@@ -15,6 +15,8 @@
 		39F4335D1CEB4D6500BE96ED /* IphonevideoviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F4335C1CEB4D6500BE96ED /* IphonevideoviewTests.swift */; };
 		39F433681CEB4D6500BE96ED /* IphonevideoviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F433671CEB4D6500BE96ED /* IphonevideoviewUITests.swift */; };
 		D30A8C96F4F86748B7106D3A /* Pods_Iphonevideoview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0142A5B4FE5D559ED5BF8FE /* Pods_Iphonevideoview.framework */; };
+		EB9750E71CECA86F00F324FB /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9750E61CECA86F00F324FB /* VideoView.swift */; settings = {ASSET_TAGS = (); }; };
+		EB9750E91CECA88500F324FB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9750E81CECA88500F324FB /* Video.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		39F433691CEB4D6500BE96ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E2CDAA2440351A7AC4A9809 /* Pods-Iphonevideoview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Iphonevideoview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Iphonevideoview/Pods-Iphonevideoview.debug.xcconfig"; sourceTree = "<group>"; };
 		D6E8E0F389507E26DAAD8D14 /* Pods-Iphonevideoview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Iphonevideoview.release.xcconfig"; path = "Pods/Target Support Files/Pods-Iphonevideoview/Pods-Iphonevideoview.release.xcconfig"; sourceTree = "<group>"; };
+		EB9750E61CECA86F00F324FB /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		EB9750E81CECA88500F324FB /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		F0142A5B4FE5D559ED5BF8FE /* Pods_Iphonevideoview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Iphonevideoview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,6 +118,8 @@
 			children = (
 				39F433471CEB4D6400BE96ED /* AppDelegate.swift */,
 				39F433491CEB4D6400BE96ED /* ViewController.swift */,
+				EB9750E61CECA86F00F324FB /* VideoView.swift */,
+				EB9750E81CECA88500F324FB /* Video.swift */,
 				39F4334B1CEB4D6400BE96ED /* Main.storyboard */,
 				39F4334E1CEB4D6400BE96ED /* Assets.xcassets */,
 				39F433501CEB4D6400BE96ED /* LaunchScreen.storyboard */,
@@ -331,6 +337,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				39F4334A1CEB4D6400BE96ED /* ViewController.swift in Sources */,
+				EB9750E91CECA88500F324FB /* Video.swift in Sources */,
+				EB9750E71CECA86F00F324FB /* VideoView.swift in Sources */,
 				39F433481CEB4D6400BE96ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

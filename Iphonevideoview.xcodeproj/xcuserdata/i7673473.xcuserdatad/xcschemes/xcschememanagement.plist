@@ -4,29 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Iphonevideoview.xcscheme</key>
+		<key>Iphonevideoview.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-		<key>YouTubePlayer.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>D9FF5CDF1949CEBDA3C07CE4376A34C1</key>
+		<key>39F433431CEB4D6400BE96ED</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FC310A96D9325B2525F00FBFAE0AA447</key>
+		<key>39F433571CEB4D6400BE96ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39F433621CEB4D6500BE96ED</key>
 		<dict>
 			<key>primary</key>
 			<true/>
