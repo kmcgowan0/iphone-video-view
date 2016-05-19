@@ -9,7 +9,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Iphonevideoview" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -19,9 +18,9 @@
                         <rect key="frame" x="0.0" y="64" width="414" height="2857"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translucent="NO" backIndicatorImage="Background5-1024x403" translatesAutoresizingMaskIntoConstraints="NO" id="WMw-ij-gOQ">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WMw-ij-gOQ">
                                 <rect key="frame" x="12" y="-1193" width="375" height="44"/>
-                                <color key="backgroundColor" red="0.20392156859999999" green="0.66274509800000003" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.1764705882" green="0.68235294120000001" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.20392156862745098" green="0.66274509803921566" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -278,6 +277,7 @@
                         <segue destination="qMW-ui-wUs" kind="show" identifier="VideoDetail" id="Zbh-fh-Q0R"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1987" y="436.5"/>
         </scene>
