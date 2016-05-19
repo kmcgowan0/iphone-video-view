@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     let videos = buildVideos()
     var selectedVideo = 0
     
+
     @IBAction func videoButton(sender: AnyObject) {
         selectedVideo = sender.tag!
         performSegueWithIdentifier("VideoDetail", sender: videos[sender.tag!])
